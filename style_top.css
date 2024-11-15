@@ -1,0 +1,384 @@
+
+BODY {
+	line-height:15pxt;
+	font-size:12px;
+	text-decoration:none;
+	color:#666666;
+	-webkit-text-size-adjust: 100%;
+}
+
+.fsmall  {
+	font-size:8px;
+}
+
+.ffsmall  {
+	font-size:8px;
+	line-height:15pxt;
+	letter-spacing: 3px
+}
+
+
+  
+A {
+	text-decoration:none;
+}
+A:link {
+	color:#666666;text-decoration:none;
+}
+A:visited {
+	color:#666666;text-decoration:none;
+}
+
+A:active {
+	color:#add7e0;text-decoration:underline;
+}
+
+A:hover {
+	color:#add7e0;text-decoration:underline;
+}
+
+
+/*外部リンクアイコン*/
+.exLink{
+	padding-right: 16px;
+	background: url(linkicon.png) right center/13px auto no-repeat;
+}
+
+/*色分け*/
+.man1  {
+	color:#55aaff;
+}
+.man2  {
+	color:#16b93c;
+}
+.man3  {
+	color:#184eff;
+}
+.lady1  {
+	color:#ff9a02;
+}
+.lady2  {
+	color:#b8ac02;
+}
+.lady3  {
+	color:#ff60af;
+}
+.chorus  {
+	color:#8442ff;
+}
+
+
+
+/*太字*/
+.fontb {
+font-weight:bold;
+}
+
+
+.ac-container{
+    width: 310px;
+    margin: 0px;
+}
+
+.ac-container label{
+	background: #f1f1f1;
+	padding: 5px 10px;
+	width: 100%;
+	text-align: center;
+	color:#666666;
+	font-size:14px;
+	line-height:1.2;
+
+	
+	margin-bottom: 4px;
+    display: block;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+    background: linear-gradient(top, #ffffff 1%,#eaeaea 100%);
+    box-shadow:
+        0px 0px 0px 1px rgba(155,155,155,0.3),
+        1px 0px 0px 0px rgba(255,255,255,0.9) inset,
+        0px 2px 2px rgba(0,0,0,0.1);
+}
+.ac-container label:hover{
+    background: #f7f7f7;
+	text-decoration:none;
+}
+.ac-container input:checked + label,
+.ac-container input:checked + label:hover{
+
+    background: #ddf0f4;
+    color: #3d7489;
+    text-shadow: 0px 1px 1px rgba(255,255,255, 0.6);
+    box-shadow:
+        0px 0px 0px 1px rgba(155,155,155,0.3),
+        0px 2px 2px rgba(0,0,0,0.1);
+}
+
+.ac-container input{
+    display: none;
+}
+.ac-container article{
+
+	height: 0px;
+    background: rgba(255, 255, 255, 0.5);
+    margin-top: 0px;
+    line-height: 20px;
+	padding: 0px 15px;
+    overflow: hidden;
+    transition:
+        height 0.3s ease-in-out,
+        box-shadow 0.6s linear;
+}
+.ac-container input:checked ~ article{
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+
+	transition:
+	height 0.5s ease-in-out,
+	box-shadow 0.1s linear;
+
+}
+.ac-container input:checked ~ article.sound1{
+    height: 30px;
+}
+.ac-container input:checked ~ article.sound2{
+    height: 45px;
+}
+.ac-container input:checked ~ article.sound3{
+    height: 66px;
+}
+.ac-container input:checked ~ article.sound4{
+    height: 86px;
+}
+.ac-container input:checked ~ article.sound5{
+    height: 106px;
+}
+.ac-container input:checked ~ article.sound6{
+    height: 126px;
+}
+.ac-container input:checked ~ article.sound8{
+    height: 165px;
+}
+.ac-container input:checked ~ article.sound9{
+    height: 185px;
+}
+.ac-container input:checked ~ article.sound10{
+    height: 205px;
+}
+.ac-container input:checked ~ article.sound11{
+    height: 225px;
+}
+.ac-container input:checked ~ article.sound12{
+    height: 245px;
+}
+.ac-container input:checked ~ article.sound13{
+    height: 265px;
+}
+.ac-container input:checked ~ article.sound14{
+    height: 285px;
+}
+.ac-container input:checked ~ article.sound15{
+    height: 310px;
+}
+.ac-container input:checked ~ article.sound16{
+    height: 330px;
+}
+.ac-container input:checked ~ article.sound17{
+    height: 345px;
+}
+
+.ac-container input:checked ~ article.sound18{
+    height: 370px;
+}
+.ac-container input:checked ~ article.sound19{
+    height: 390px;
+}
+
+.ac-container input:checked ~ article.sound20{
+    height: 410px;
+}
+
+.ac-container input:checked ~ article.sound21{
+    height: 430px;
+}
+.ac-container input:checked ~ article.sound22{
+    height: 450px;
+}
+
+.ac-container input:checked ~ article.sound23{
+    height: 470px;
+}
+.ac-container input:checked ~ article.sound26{
+    height: 525px;
+}
+.ac-container input:checked ~ article.sound28{
+    height: 555px;
+}
+.ac-container input:checked ~ article.sound30{
+    height: 610px;
+}
+
+.ac-container input:checked ~ article.sound54{
+    height: 1075px;
+}
+
+.article  {
+	background: #e4e4e4;
+	padding: 5px 10px;
+	width: 310px;
+	text-decoration: none;
+	text-align: center;
+	color:#666666;
+	list-style: none;
+	margin-bottom: 4px;
+	margin-left:0;
+    display: block;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+    background: linear-gradient(top, #ffffff 1%,#eaeaea 100%);
+    box-shadow:
+        0px 0px 0px 1px rgba(155,155,155,0.3),
+        1px 0px 0px 0px rgba(255,255,255,0.9) inset,
+        0px 2px 2px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+.box1{
+	background: #e4e4e4;
+	padding: 5px 10px;
+	width: 100%;
+	text-align: center;
+	color:#666666;
+	
+	margin-bottom: 4px;
+    display: block;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+    background: linear-gradient(top, #ffffff 1%,#eaeaea 100%);
+    box-shadow:
+        0px 0px 0px 1px rgba(155,155,155,0.3),
+        1px 0px 0px 0px rgba(255,255,255,0.9) inset,
+        0px 2px 2px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+/*
+
+.top li a  {
+   background: #e4e4e4;
+}
+
+
+.sound li a   {
+   background: #f1f1f1;
+}
+.sound li li a   {
+   background: #fafafa;
+}
+
+.sound li li span span   {
+   background: #fafafa;
+}
+
+
+.nein li a  {
+　text-align: center;
+}
+
+
+.menu {
+   margin: 0;
+   padding: 0;
+   width: 200px;
+}
+.menu li {
+   list-style: none;
+}
+.menu li a {
+   display: table;
+   margin-top: 1px;
+   padding: 5px 10px;
+   width: 100%;
+   text-decoration: none;
+   text-align: left;
+   color:#666666;
+   overflow: hidden;
+}
+.menu li label {
+   display: table;
+   margin-top: 1px;
+   padding: 5px 10px;
+   width: 100%;
+   text-decoration: none;
+   text-align: left;
+   color:#666666;
+   overflow: hidden;
+}
+.menu li span span {
+   display: table;
+   margin-top: 1px;
+   padding: 5px 10px;
+   width: 100%;
+   text-decoration: none;
+   text-align: left;
+   color:#666666;
+   overflow: hidden;
+}
+
+.menu li ul {
+   margin: 0;
+   padding: 0;
+}
+.menu li li a {
+   display: block;
+   margin-top: 0;
+   padding: 0px 10px;
+   height: 0;
+}
+.menu li li label {
+   display: block;
+   margin-top: 0;
+   padding: 0px 10px;
+   height: 0;
+}
+.menu li li span span {
+   display: block;
+   margin-top: 0;
+   padding: 0px 10px;
+   height: 0;
+}
+
+.menu li li a:hover {
+   color:#d1b4e9;text-decoration:underline;
+}
+
+.menu > li:hover li a {
+   display: table;
+   margin-top: 0px;
+   padding: 3px 10px;
+   width: 100%;
+}
+.menu > li:hover li span span {
+   display: table;
+   margin-top: 0px;
+   padding: 3px 10px;
+   width: 100%;
+}
+
+.menu * {
+   -moz-transition: .5s;
+   -webkit-transition: .5s;
+   -o-transition: .5s;
+   -ms-transition: .5s;
+   transition: .5s;
+}
+
+*/

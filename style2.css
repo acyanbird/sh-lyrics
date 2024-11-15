@@ -1,0 +1,53 @@
+
+BODY {
+	line-height:22px;
+	font-size:15px;
+	text-decoration:none;
+	color:#666666;
+	-webkit-text-size-adjust: 100%;
+}
+
+  
+A {
+	text-decoration:none;
+}
+A:link {
+	color:#666666;text-decoration:underline;
+}
+A:visited {
+	color:#666666;text-decoration:none;
+}
+A:active {
+	color:#666666;text-decoration:underline;
+}
+
+A:hover {
+	color:#666666;text-decoration:underline;
+}
+
+.botfont { font-size:9px; color:#666666; padding:1 0 0 0; }
+
+.mlink  {
+	font-size:80%;
+}
+
+
+/*色分け*/
+.man1  {
+	color:#55aaff;
+}
+.man2  {
+	color:#18CB41;
+}
+.lady1  {
+	color:#ff9a02;
+}
+.lady2  {
+	color:#aea93c;
+}
+.lady3  {
+	color:#ff60af;
+}
+.chorus  {
+	color:#8442ff;
+}

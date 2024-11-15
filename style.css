@@ -1,0 +1,157 @@
+
+
+BODY {
+	line-height:22px;
+	font-size:15px;
+	text-decoration:none;
+	color:#666666;
+	-webkit-text-size-adjust: 100%;
+}
+  
+div {
+	line-height:22px;
+	font-size:15px;
+	text-decoration:none;
+	color:#666666;
+}
+
+
+
+
+div#center {  
+    margin: 0 auto;
+	width: 100%; 
+	text-align: center;  
+
+}  
+
+
+
+.tcenter{
+  text-align:center;
+}
+
+
+
+A {
+	text-decoration:none;
+}
+A:link {
+	color:#666666;text-decoration:underline;
+}
+A:visited {
+	color:#666666;text-decoration:none;
+}
+A:active {
+	color:#add7e0;text-decoration:underline;
+}
+
+A:hover {
+	color:#add7e0;text-decoration:underline;
+}
+
+
+.botfont { font-size:9px; color:#666666; padding:1 0 0 0; }
+
+.mlink  {
+	font-size:80%;
+}
+
+/*外部リンクアイコン*/
+a[target=_blank] {
+	padding-right: 18px;
+	background: url(./linkicon.png) right center/13px auto no-repeat;
+}
+
+/*打消し線二重*/
+del.delfont2 {
+  background-image: linear-gradient(transparent 0.5em, #000000 0, #000000 calc(0.5em + 1px), transparent 0, transparent calc(0.5em + 3px), #000000 0, #000000 calc(0.5em + 4px), transparent 0);
+  text-decoration: none;
+  padding: 0 2px;
+}
+
+/*太字*/
+.fontb {
+font-weight:bold;
+}
+
+
+/*色分け*/
+.man1  {
+	color:#55aaff;
+}
+.man2  {
+	color:#16b93c;
+}
+.man3  {
+	color:#183bff;
+}
+.lady1  {
+	color:#ff9a02;
+}
+.lady2  {
+	color:#b8ac02;
+}
+.lady3  {
+	color:#ff60af;
+}
+.chorus  {
+	color:#8442ff;
+}
+
+/*.lady2  {
+	color:#aea93c;
+}*/
+
+.harmL0  {
+	color:#ffffff;
+	line-height:0px;
+}
+.harm1  {
+	color:#fb3e34;
+}
+.harmL1  {
+	color:#fb3e34;
+	line-height:0px;
+}
+.harm2  {
+	color:#f89b1a;
+}
+.harmL2  {
+	color:#f89b1a;
+	line-height:0px;
+}
+.harm3  {
+	color:#d2c700;
+}
+.harmL3  {
+	color:#d2c700;
+	line-height:0px;
+}
+.harm4  {
+	color:#96cc16;
+}
+.harmL4  {
+	color:#96cc16;
+	line-height:0px;
+}
+.harm5  {
+	color:#00c2a9;
+}
+.harmL5  {
+	color:#00c2a9;
+	line-height:0px;
+}
+.harm6  {
+	color:#5f99fb;
+}
+.harmL6  {
+	color:#5f99fb;
+	line-height:0px;
+}
+
+.vc  {
+	color:#adadad;
+}
+
+
